@@ -21,16 +21,4 @@ def simpsons(func, a, b, m):
     return(rrr, 1.46265 - rrr)
 
 
-print(comptrap(func, 0, 1, 16)[0])
-print(comptrap(func, 0, 1, 16)[1])
-print("*" * 30)
-print(comptrap(func, 0, 1, 32)[0]) 
-print(comptrap(func, 0, 1, 32)[1])
-print("*" * 30)
-print("*" * 30)
-print(simpsons(func, 0, 1, 16)[0])
-print(simpsons(func, 0, 1, 16)[1])
-print("*" * 30)
-print(simpsons(func, 0, 1, 32)[0]) 
-print(simpsons(func, 0, 1, 32)[1])
 
